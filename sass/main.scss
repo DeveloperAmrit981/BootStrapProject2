@@ -1,0 +1,21 @@
+//costum variables
+$primary: #c29938;
+$light: #f4eee1;
+
+//import the functions and variables
+
+@import "../node_modules/bootstrap/scss/_functions";
+@import "../node_modules/bootstrap/scss/_variables";
+
+$costum-theme-colors: (
+    "altlight": #d0eef1,
+    "altdark": #B3AFAE,
+    "rewiewStar": rgb(240, 208, 0),
+
+);
+
+$theme-colors: map-merge($costum-theme-colors, $theme-colors);
+
+//import bootstrap
+
+@import  '../node_modules/bootstrap/scss/bootstrap';
